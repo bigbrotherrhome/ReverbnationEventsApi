@@ -4,6 +4,7 @@ An easy PHP class, designed to get all music events from reverbnation.com
 
 # Easy Usage:
 **//? 1. Require "ReverbnationEvents.php" into project**
+
 ````php
 <?php
 require "ReverbnationEvents.php" ;
@@ -18,11 +19,12 @@ $events_data = reverbnationEventsGet([
 	'country'=>'US', 
 ]) ;
 ````
-
-Try Some more country codes like: CA, BR, GH, US, AM etc.
+Try Some more country codes like: **CA, BR, GH, US, AM** etc.
+ 
 **//**
 
 **//? 3. Use the data retrieved to build your web application, always check if the "return" column is true before you proceed.**
+
 ````php
 if($events_data['return']===true){
 	print_r($events_data) ;
@@ -34,9 +36,11 @@ if($events_data['return']===true){
 	//
 }
 ````
+
 **//**
 
 ## Additional parameters or queries:
+
 ````php
 $events_data = reverbnationEventsGet([
 	'page'=>1, 
@@ -47,5 +51,9 @@ $events_data = reverbnationEventsGet([
 ]) ;
 print_r($events_data);
 ````
+# Extra
+- *See "**sample1.php**" at project directory.*
+- *See "**result_sample.json**" for event data result sample.*
+
 # Say Thank You To
 [bigbrotherrhome](fb.me/bigbrotherrhome)
