@@ -15,6 +15,7 @@ An easy PHP class, designed to get all music events from reverbnation.com
    		'page'=>1, 
    		'country'=>'US', 
    	]) ;
+Try Some more country codes like: CA, BR, GH, US, AM etc.
 **//**
 
 **//? 3. Use the data retrieved to build your web application, always check if the "return" column is true before you proceed.**
@@ -31,7 +32,7 @@ An easy PHP class, designed to get all music events from reverbnation.com
 
 **//**
 
- **Additional parameters or queries:**
+ ## Additional parameters or queries:
  
     $events_data = reverbnationEventsGet([
 		'page'=>1, 
