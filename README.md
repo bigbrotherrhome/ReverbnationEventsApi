@@ -19,7 +19,7 @@ Try Some more country codes like: CA, BR, GH, US, AM etc.
 **//**
 
 **//? 3. Use the data retrieved to build your web application, always check if the "return" column is true before you proceed.**
-
+	```php
 	if($events_data['return']===true){
 		print_r($events_data) ;
 
@@ -29,7 +29,7 @@ Try Some more country codes like: CA, BR, GH, US, AM etc.
 			exit();
 		//
 	}
-
+	```
 **//**
 
  ## Additional parameters or queries:
