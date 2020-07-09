@@ -1,6 +1,6 @@
 
 # ReverbnationEventsApi
-An easy PHP class, designed to get all music events from reverbnation.com
+An easy PHP class, designed to get all music events from [reverbnation.com](https://reverbnation.com)
 
 # Easy Usage:
 **//? 1. Require "ReverbnationEvents.php" into project**
@@ -56,4 +56,4 @@ print_r($events_data);
 - *See "**result_sample.json**" at project directory for event data result sample.*
 
 # Say Thank You To
-[bigbrotherrhome](fb.me/bigbrotherrhome)
+[bigbrotherrhome](https://fb.me/bigbrotherrhome)
