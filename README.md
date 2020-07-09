@@ -19,7 +19,7 @@ $events_data = reverbnationEventsGet([
 	'country'=>'US', 
 ]) ;
 ````
-Try Some more country codes like: **CA, BR, GH, US, AM** etc.
+*Try Some more country codes like: **CA, BR, GH, US, AM** etc.*
  
 **//**
 
@@ -53,7 +53,7 @@ print_r($events_data);
 ````
 # Extra
 - *See "**sample1.php**" at project directory.*
-- *See "**result_sample.json**" for event data result sample.*
+- *See "**result_sample.json**" at project directory for event data result sample.*
 
 # Say Thank You To
 [bigbrotherrhome](fb.me/bigbrotherrhome)
